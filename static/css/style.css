@@ -33,11 +33,10 @@ body {
 
 h1 {
 	color: #fff;
-    margin: 3rem 0;
-    font-size: 4rem;
+    margin: 7rem 0;
+    font-size: 6rem;
     font-weight: 700;
-    width: 50%;
-    line-height: 5rem;
+    width: 100%;
 }
 
 h2 {
@@ -48,12 +47,36 @@ h3 {
 
 }
 
+p {
+	font-size: 1em;
+	line-height: 28px;
+	line-height: 70px;
+}
+
 /* Header */
 
 header {
 	color: #fff;
-	padding: 3em 0;
+    padding: 4em 0 10em 0;
 	background-size: 100%;
-	background-image: url(../img/the-web.jpg);
+	background-image: url(../img/the-web-mobile.jpg);
 	background-repeat: no-repeat;	
+}
+
+/* Main */
+
+.container {
+	margin: 0 4rem;
+}
+
+/* Buttons */
+
+button {
+    font-size: 2.5rem;
+    color: #fff;
+    background-color: transparent;
+    border: 5px solid #fff;
+    border-radius: 0.2em;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
 }
