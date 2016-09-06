@@ -57,28 +57,3 @@ header {
 	background-image: url(../img/the-web.jpg);
 	background-repeat: no-repeat;	
 }
-
-header > div > p {
-	width: 75%;
-	line-height: 2rem;
-}
-
-/* Main */
-
-.container {
-	width: 80vw;
-	margin: 0 auto;
-}
-
-/* Buttons */
-
-button {
-	font-size: 1rem;
-	background-color: transparent;
-	border: 2px solid #fff;
-	border-radius: 20px;
-	text-transform: uppercase;
-	color: #fff;
-	padding: 0.8rem 2rem
-}
-
