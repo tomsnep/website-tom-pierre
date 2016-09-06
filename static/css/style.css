@@ -4,7 +4,7 @@
 */
 
 /* Declared fonts */
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700,800';
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -25,12 +25,19 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+/* Font styles */
+
 body {
 	font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-
+	color: #fff;
+    margin: 3rem 0;
+    font-size: 4rem;
+    font-weight: 700;
+    width: 50%;
+    line-height: 5rem;
 }
 
 h2 {
@@ -40,3 +47,38 @@ h2 {
 h3 {
 
 }
+
+/* Header */
+
+header {
+	color: #fff;
+	padding: 3em 0;
+	background-size: 100%;
+	background-image: url(../img/the-web.jpg);
+	background-repeat: no-repeat;	
+}
+
+header > div > p {
+	width: 75%;
+	line-height: 2rem;
+}
+
+/* Main */
+
+.container {
+	width: 80vw;
+	margin: 0 auto;
+}
+
+/* Buttons */
+
+button {
+	font-size: 1rem;
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius: 20px;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 0.8rem 2rem
+}
+
