@@ -100,7 +100,8 @@ button {
 /* Footer */
 
 footer {
-	border-top: solid #ccc;
+	border-top: solid #94BEC2;
+	border-bottom: 3em solid #94BEC2;
 }
 
 footer p {
