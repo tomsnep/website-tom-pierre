@@ -100,11 +100,16 @@ button {
 /* Footer */
 
 footer {
-	border-top: solid #94BEC2;
-	border-bottom: 3em solid #94BEC2;
+	background-color: #94BEC2;
+	border-bottom: 3em solid #000;
+}
+
+footer .wrapper {
+	padding-top: 4em;
 }
 
 footer p {
 	font-size: 0.9rem;
-	font-weight: 100;
+    font-weight: 100;
+    color: white;
 }
